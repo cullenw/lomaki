@@ -9,7 +9,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -20,7 +20,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -150,7 +150,7 @@ i {
 	margin-bottom: 35px;
 	color: white;
 	font-size: 45px;
-	font-weight: 900;
+	font-weight: 600;
 	letter-spacing: 1px;
     line-height: 60px;
 }
