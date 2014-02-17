@@ -32,6 +32,7 @@ h1 {
 h3 {
 	color: #95a5a6;
 	font-weight: 400;
+    line-height: 30px;
 }
 
 h4 {
@@ -93,8 +94,8 @@ a:after {
 }
 
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
+	background-color: #77448B;
+	border-bottom: 3px solid #9B59B6;
 }
 
 .navbar-default .navbar-brand {
@@ -103,6 +104,30 @@ a:after {
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
+}
+
+.subnav {
+    min-height: 40px;
+    font-size: 14px;
+}
+
+.subnav .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subnav .breadcrumb {
+    margin-bottom: 0;
+    padding-left: 0;
+    background: transparent;
+}
+
+.subnav .breadcrumb li a {
+    color: #fff;
+}
+
+.subnav .breadcrumb .active {
+    color: #fff;
 }
 
 /* Helpers */
@@ -145,6 +170,11 @@ i {
     background-size: cover;
 }
 
+#headerwrap .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 #headerwrap h1 {
 	margin-top: 160px;
 	margin-bottom: 35px;
@@ -167,6 +197,21 @@ i {
 
 #headerwrap .btn-outlined.btn-primary:hover {
     background: #77448B;
+}
+
+#headerwrap.project {
+    background: url(http://www.immunityproject.org/images/lab.jpg) no-repeat;
+    background-size: cover;
+}
+
+#headerwrap.project h1 {
+    margin-bottom: 20px;
+    margin-top: 220px;
+}
+
+#headerwrap.project h2 {
+    color: #fff;
+    margin-bottom: 40px;
 }
 
 /* Sections */
