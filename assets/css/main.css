@@ -249,6 +249,7 @@ a:after {
     margin-bottom: 40px;
 }
 
+/* Adds opaque background between image and content, see project header for details */
 .layer {
     background-color: rgba(0, 0, 0, 0.39);
     position: absolute;
@@ -274,6 +275,12 @@ a:after {
 
 .footer {
     padding-top: 20px;
+}
+
+/* Panels */
+
+.panel h3 {
+    margin-top: 0;
 }
 
 /* Buttons */
