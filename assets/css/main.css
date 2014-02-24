@@ -237,12 +237,19 @@ a:after {
     position: relative;
 }
 
-#headerwrap.project h1, #headerwrap.blog h1 {
+#headerwrap.post {
+    background: url(../img/bg3.jpg) no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+}
+
+#headerwrap.project h1, #headerwrap.blog h1, #headerwrap.post h1 {
     margin-bottom: 20px;
     margin-top: 180px;
 }
 
-#headerwrap.project h2, #headerwrap.blog h2 {
+#headerwrap.project h2, #headerwrap.blog h2, #headerwrap.post h2 {
     color: #fff;
     margin-bottom: 40px;
 }
