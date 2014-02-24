@@ -244,14 +244,19 @@ a:after {
     position: relative;
 }
 
-#headerwrap.project h1, #headerwrap.blog h1, #headerwrap.post h1 {
+#headerwrap.project h1, #headerwrap.blog h1 {
     margin-bottom: 20px;
     margin-top: 180px;
 }
 
-#headerwrap.project h2, #headerwrap.blog h2, #headerwrap.post h2 {
+#headerwrap.project h2, #headerwrap.blog h2 {
     color: #fff;
     margin-bottom: 40px;
+}
+
+#headerwrap.post h1 {
+    margin-top: 100px;
+    margin-bottom: 0;
 }
 
 /* Adds opaque background between image and content, see project header for details */
