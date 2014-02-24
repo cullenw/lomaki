@@ -233,7 +233,7 @@ a:after {
 #headerwrap.blog {
     background: url(../img/bg3.jpg) no-repeat;
     background-size: cover;
-    min-height: 550px;
+    min-height: 450px;
     position: relative;
 }
 
