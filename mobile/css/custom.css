@@ -131,6 +131,7 @@ section.donate-header .bar {
 .list a.list__item.immunity {
     background: url('../img/projects/immunity.jpg') no-repeat center top;
     background-position: center center;
+    background-attachment: relative;
     height: 185px;
 
     -webkit-background-size: 100%;
