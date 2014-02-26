@@ -29,7 +29,7 @@ body {
     color: #909090;
     font-weight: 600;
     float: left;
-    padding: 0 10px;
+    padding: 5px 10px;
     margin: 5px 0;
     text-transform: uppercase;
     clear: both;
@@ -150,6 +150,20 @@ section.donate-header .bar {
 
 /* Donate Screen */
 
+.donate .row-label {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.donate .button {
+    font-size: 1.5em;
+}
+
+.donate .button.active {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 .match-slider .range input {
     background-color: transparent;
     margin: 0;
@@ -162,15 +176,6 @@ section.donate-header .bar {
 
 .range--primary input[type=range]::-webkit-slider-thumb:before {
   background-color: #8548be;
-}
-
-.donate .button {
-    font-size: 1.5em;
-}
-
-.donate .button.active {
-    color: #fff;
-    border: 1px solid #fff;
 }
 
 
