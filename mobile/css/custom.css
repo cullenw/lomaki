@@ -25,6 +25,14 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+a {
+    color: #8548be;
+}
+
+a:hover {
+    color: #fff;
+}
+
 .row-label {
     color: #909090;
     font-weight: 600;
