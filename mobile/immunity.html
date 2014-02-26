@@ -43,7 +43,7 @@
     </section>
 
     <div class="list">
-        <a id="headerwrap" class="list__item project immunity center" href="#">
+        <a class="list__item project immunity center" href="#">
             <div class="grid" style="height:100%;">
                 <div class="col col--center" style="padding-top:30px;">
                     <h2>The Immunity Project</h2>
@@ -105,15 +105,5 @@
     </section>
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript">
-    var top_header = '';
-    $(document).ready(function(){
-      top_header = $('#headerwrap');
-    });
-    $(window).scroll(function () {
-      var st = $(window).scrollTop();
-      top_header.css({'background-position':"center "+(st*.5)+"px"});
-    });
-</script>
 </body>
 </html>
