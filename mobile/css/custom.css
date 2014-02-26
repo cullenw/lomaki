@@ -115,6 +115,8 @@ section.project-header .bar {
 
 .supporters {
     clear: both;
+    height: 50px;
+    overflow: hidden;
 }
 
 .supporters img {
