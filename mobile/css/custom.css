@@ -22,6 +22,7 @@
 body {
     background-color: #191a1a;
     color: #eaeaea;
+    -webkit-font-smoothing: antialiased;
 }
 
 .bar--header {
@@ -49,13 +50,33 @@ section.project-header .bar {
     background-color: rgba(0, 0, 0, 0.43);
 }
 
-
-
 .bar--footer {
     position: fixed;
     bottom: 0;
+    border-top: none;
 }
 
+.bar--footer .button-group {
+    margin: 0;
+}
+
+.bar--footer .button-group .button:first-child, .bar--footer .button-group .button:last-child {
+    border-radius: 0;
+}
+
+.bar--footer .button-group a {
+    background: #8548be;
+    height: 44px;
+    line-height: 44px;
+}
+
+.bar--footer .button-group a.alt-button {
+    background: #020102;
+}
+
+.bar--footer .button-group .button {
+    border: none;
+}
 
 /* Home Screen (Curated List) */
 
