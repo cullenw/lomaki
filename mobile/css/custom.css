@@ -25,6 +25,17 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.row-label {
+    color: #909090;
+    font-weight: 600;
+    float: left;
+    padding: 0 10px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    clear: both;
+    width: 100%;
+}
+
 .bar--header {
     position: fixed;
     top: 0;
@@ -38,7 +49,7 @@ section.home-header, section.project-header {
     padding-top: 0!important;
 }
 
-section.home-header .bar--header, section.project-header .bar--header {
+section.home-header .bar--header, section.project-header .bar--header, section.donate-header .bar--header {
     border-bottom: none;
 }
 
@@ -48,6 +59,10 @@ section.home-header .bar {
 
 section.project-header .bar {
     background-color: rgba(0, 0, 0, 0.43);
+}
+
+section.donate-header .bar {
+    background-color: #8548be;
 }
 
 .bar--footer {
@@ -68,6 +83,7 @@ section.project-header .bar {
     background: #8548be;
     height: 44px;
     line-height: 44px;
+    text-transform: uppercase;
 }
 
 .bar--footer .button-group a.alt-button {
@@ -123,16 +139,6 @@ section.project-header .bar {
     float: left;
 }
 
-.row-label {
-    color: #909090;
-    font-weight: 600;
-    float: left;
-    padding-left: 10px;
-    margin: 5px 0;
-    text-transform: uppercase;
-    clear: both;
-}
-
 .text-block {
     clear: both;
     padding: 0 10px;
@@ -141,4 +147,30 @@ section.project-header .bar {
 .text-block.last {
     padding-bottom: 15px;
 }
+
+/* Donate Screen */
+
+.match-slider .range input {
+    background-color: transparent;
+    margin: 0;
+    -webkit-flex: 0 1 100%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+}
+
+.range--primary input[type=range]::-webkit-slider-thumb:before {
+  background-color: #8548be;
+}
+
+.donate .button {
+    font-size: 1.5em;
+}
+
+.donate .button.active {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 
