@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <title>Lomaki</title>
 <!-- Sets initial viewport load and disables zooming  -->
 <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">   
@@ -19,6 +20,14 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 <script type="text/javascript" src="js/site.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+      $('a').click(function() {
+        document.location = $(this).attr('href');
+        return false;
+      });
+    });
+</script>
 </head>
 <body>
 
@@ -82,5 +91,6 @@
         </div>
     </section>
 
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 </body>
 </html>
