@@ -82,6 +82,17 @@ section.project-header .bar {
 
 .list a.list__item.project {
     color: #fff;
+    border-bottom: none;
+}
+
+.list a.list__item.project h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.list a.list__item.project p {
+    color: #cbcbcb;
 }
 
 .list a.list__item.immunity {
@@ -106,16 +117,26 @@ section.project-header .bar {
     clear: both;
 }
 
+.supporters img {
+    float: left;
+}
+
 .row-label {
     color: #909090;
+    font-weight: 600;
     float: left;
     padding-left: 10px;
     margin: 5px 0;
     text-transform: uppercase;
+    clear: both;
 }
 
 .text-block {
     clear: both;
     padding: 0 10px;
+}
+
+.text-block.last {
+    padding-bottom: 15px;
 }
 
