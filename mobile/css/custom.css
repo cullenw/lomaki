@@ -127,6 +127,38 @@ section.donate-header .bar {
     background-size: cover;
 }
 
+.list a.list__item.watsi {
+    background: url('../img/projects/watsi.jpg') no-repeat center top;
+    background-position: center center;
+    height: 185px;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.list a.list__item.filler {
+    background: url('../img/projects/project.jpg') no-repeat center top;
+    background-position: center center;
+    height: 185px;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /* Project Screen */
 
 .project .button {
