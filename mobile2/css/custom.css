@@ -104,6 +104,25 @@ img.circle {
 
 /* Home Screen */
 
+.hbox > aside {
+    -webkit-box-shadow: inset -5px 0px 6px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -5px 0px 6px -3px rgba(0,0,0,0.75);
+    box-shadow: inset -5px 0px 6px -3px rgba(0, 0, 0, 0.75);
+    background-color: #181818;
+    color: #fff;
+}
+
+.sidenav ul {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.sidenav ul li a {
+    color: #b4b4b4;
+    text-transform: uppercase;
+}
+
+
 .home-page header button, .home-page header button:hover, .home-page header button:focus {
     color: #fff;
 }
