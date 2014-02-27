@@ -1,18 +1,3 @@
-/* Helpers */
-
-.center {
-    text-align: center;
-}
-
-img.circle {
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
-
 /* Base Styles */
 
 body {
@@ -57,6 +42,57 @@ ul {
 
 .list-group {
     margin-bottom: 0;
+}
+
+/* Helpers */
+
+.center {
+    text-align: center;
+}
+
+img.circle {
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/* Buttons */
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
 }
 
 /* Header */
@@ -200,6 +236,32 @@ ul {
     border: none;
     border-radius: 0;
     width: 50%;
+}
+
+/* Donate Page */
+
+body.donate-page {
+    background-image: url(../images/donate-bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.donate-page .vbox {
+    padding-bottom: 46px;
+}
+
+.donate-page .nav-bar {
+    background-color: #8548C2;
+    height: 46px;
+}
+
+.donate-page .nav-bar > .btn {
+    padding: 6px 12px;
+}
+
+.donate-page .btn-grouping {
+    padding: 0 10px;
 }
 
 
