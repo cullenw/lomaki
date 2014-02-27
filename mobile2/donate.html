@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="css/angularicons.min.css" type="text/css" />
     <link rel="stylesheet" href="css/font.css" type="text/css" cache="false" />
+    <link rel="stylesheet" href="js/slider/slider.css" type="text/css" />
     <link rel="stylesheet" href="css/plugin.css" type="text/css" />
     <link rel="stylesheet" href="css/app.css" type="text/css" />
 
@@ -57,7 +58,7 @@
                                         <a href="#" class="btn btn-default btn-block btn-lg btn-outline">$1</a>
                                     </div>
                                     <div class="col-xs-6" style="padding-left:5px;">
-                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">$5</a>
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active">$5</a>
                                     </div>
                                 </div>
                             </div>
@@ -71,27 +72,29 @@
                                     </div>
                                 </div>
                             </div>
-                            <h5>Frequency</h5>
+                            <h5 class="m-t">Frequency</h5>
                             <div class="row">
                                 <div class="btn-grouping">
                                     <div class="col-xs-6" style="padding-right:5px;">
-                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">ONE TIME</a>
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active">ONE TIME</a>
                                     </div>
                                     <div class="col-xs-6" style="padding-left:5px;">
                                         <a href="#" class="btn btn-default btn-block btn-lg btn-outline">MONTHLY</a>
                                     </div>
                                 </div>
                             </div>
-                            <h5>Match Up To</h5>
-
-                            <h5>Share</h5>
+                            <h5 class="m-t">Match Up To <span class="pull-right">$100</span></h5>
+                            <div class="slider-container">
+                                <input class="slider slider-horizontal form-control" type="text" value="" data-slider-min="5" data-slider-max="20" data-slider-step="1" data-slider-value="10" data-slider-orientation="horizontal">
+                            </div>
+                            <h5 class="m-t">Share</h5>
                             <div class="row">
                                 <div class="btn-grouping">
                                     <div class="col-xs-6" style="padding-right:5px;">
-                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">Facebook</a>
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active"><i class="fa fa-facebook"></i> Facebook</a>
                                     </div>
                                     <div class="col-xs-6" style="padding-left:5px;">
-                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">Twitter</a>
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active"><i class="fa fa-twitter"></i> Twitter</a>
                                     </div>
                                 </div>
                             </div>
@@ -112,6 +115,7 @@
     <!-- App -->
     <script src="js/app.js"></script>
     <script src="js/app.plugin.js"></script>
-    <script src="js/app.data.js"></script>  
+    <script src="js/app.data.js"></script> 
+    <script src="js/slider/bootstrap-slider.js"></script> 
 </body>
 </html>

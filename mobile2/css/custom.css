@@ -238,6 +238,36 @@ body.donate-page {
     padding: 0 10px;
 }
 
+.donate-page .slider-container {
+    padding: 0 10px;
+}
+
+.donate-page .slider.slider-horizontal {
+    width: 100%!important;
+}
+
+.donate-page .slider-container .tooltip{
+   display: none;
+}
+
+.donate-page .btn-grouping .btn-default {
+    background-color: transparent;
+    color: #969696!important;
+    border: 1px solid #969696!important;
+}
+
+.donate-page .btn-grouping .btn-default.active {
+    background-color: transparent;
+    color: #fff!important;
+    border: 1px solid #fff!important;
+}
+
+.donate-page h5 span {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
 /* Footer Bar (Projects + Donate) */
 
 .footer-bar {
