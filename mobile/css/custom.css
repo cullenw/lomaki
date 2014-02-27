@@ -16,6 +16,10 @@ a:hover {
 }
 
 .icon {
+    font-size: 24px!important;
+}
+
+header .icon {
     font-size: 28px!important;
 }
 
@@ -344,6 +348,23 @@ body.donate-page {
 .profile-page  .profile-top {
     background:#191A1A;
     border: none;
+}
+
+.profile-page .profile-top .panel-body {
+    background: url('../images/profile-bg.jpg') no-repeat center top;
+    background-position: center center;
+    background-attachment: relative;
+    
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .profile-page  .profile-top .panel-footer {
