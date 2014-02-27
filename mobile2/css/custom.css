@@ -104,6 +104,14 @@ img.circle {
 
 /* Home Screen */
 
+.home-page header button, .home-page header button:hover, .home-page header button:focus {
+    color: #fff;
+}
+
+.home-page header .btn:focus, .home-page header .btn:active:focus, .home-page header .btn.active:focus {
+    outline: none;
+} 
+
 .list-group a.list-group-item.project {
     color: #fff;
     border-bottom: none;

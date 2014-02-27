@@ -21,24 +21,16 @@
 <script src="js/ie/html5.js" cache="false"></script>
 <script src="js/ie/fix.js" cache="false"></script>
 <![endif]-->
-<script type="text/javascript">
-    $(function() {
-      $('a').click(function() {
-        document.location = $(this).attr('href');
-        return false;
-      });
-    });
-</script>
 </head>
-<body>
+<body class="home-page">
     <section class="hbox stretch">
         <!-- .aside -->
         <aside class="bg-primary aside-sm" id="nav">
             <section class="vbox">
                 <header class="dker nav-bar nav-bar-fixed-top">
-                    <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav">
+                    <button class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav">
                         <i class="fa fa-bars"></i>
-                    </a>
+                    </button>
                 </header>
                 <section>
                     <!-- nav -->
@@ -112,7 +104,15 @@
         </section>
         <!-- /.vbox -->
     </section>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          $('a').click(function() {
+            document.location = $(this).attr('href');
+            return false;
+          });
+        });
+    </script>
     <!-- Bootstrap -->
     <script src="js/bootstrap.js"></script>
     <!-- App -->
