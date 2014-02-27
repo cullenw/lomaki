@@ -204,6 +204,34 @@ img.circle {
     float: left;
 }
 
+/* Donate Page */
+
+body.donate-page {
+    background-image: url(../images/donate-bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.donate-page .vbox {
+    padding-bottom: 46px;
+}
+
+.donate-page .nav-bar {
+    background-color: #8548C2;
+    height: 46px;
+}
+
+.donate-page .nav-bar > .btn {
+    padding: 6px 12px;
+}
+
+.donate-page .btn-grouping {
+    padding: 0 10px;
+}
+
+/* Footer Bar (Projects + Donate) */
+
 .footer-bar {
     position: fixed;
     bottom: 0;
@@ -238,30 +266,7 @@ img.circle {
     width: 50%;
 }
 
-/* Donate Page */
-
-body.donate-page {
-    background-image: url(../images/donate-bg.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+.footer-bar .btn-group .btn-full {
+    width: 100%;
 }
-
-.donate-page .vbox {
-    padding-bottom: 46px;
-}
-
-.donate-page .nav-bar {
-    background-color: #8548C2;
-    height: 46px;
-}
-
-.donate-page .nav-bar > .btn {
-    padding: 6px 12px;
-}
-
-.donate-page .btn-grouping {
-    padding: 0 10px;
-}
-
 
