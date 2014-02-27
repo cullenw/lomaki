@@ -58,6 +58,14 @@ ul {
     margin-bottom: 0;
 }
 
+.panel {
+    margin-bottom: 0;
+}
+
+.panel-footer {
+    border-radius: 0;
+}
+
 /* Helpers */
 
 .center {
@@ -164,6 +172,7 @@ img.circle {
 
 .list-group a.list-group-item.project p {
     color: #cbcbcb;
+    padding: 0;
 }
 
 .list-group a.list-group-item {
@@ -241,10 +250,78 @@ img.circle {
     clear: both;
     height: 50px;
     overflow: hidden;
+    background: #161616;
 }
 
 .supporters img {
     float: left;
+}
+
+.project-page .currently-matching .list-group {
+    float: left;
+    width: 100%;
+    background: #161616;
+}
+
+.project-page .currently-matching .list-group a.list-group-item.tully {
+    background: url('../images/photos/tully.jpg') no-repeat center top;
+    background-position: center center;
+    background-attachment: relative;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.project-page .currently-matching .list-group a.list-group-item.barrett {
+    background: url('../images/photos/barrett.jpg') no-repeat center top;
+    background-position: center center;
+    background-attachment: relative;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.project-page .currently-matching .list-group a.list-group-item .details {
+    padding-top: 0;
+}
+
+.project-page .currently-matching .list-group a.list-group-item.project h2 {
+    margin: 0;
+    font-size: .5em;
+}
+
+.project-page .currently-matching .list-group a.list-group-item.project p {
+    margin: 3px 0 0 0;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.68);
+    right: 15px;
 }
 
 /* Donate Page */
@@ -367,6 +444,44 @@ body.donate-page {
     background-size: cover;
 }
 
-.profile-page  .profile-top .panel-footer {
+.profile-page .profile-top .panel-footer {
     border: none;
 }
+
+.profile-page .list-group {
+    float: left;
+    width: 100%;
+    background: #161616;
+}
+
+.profile-page .list-group a.list-group-item.immunity {
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+.profile-page .list-group a.list-group-item.watsi {
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+.profile-page .list-group a.list-group-item .details {
+    padding-top: 0;
+}
+
+.profile-page .list-group a.list-group-item.project h2 {
+    margin: 0;
+    font-size: .5em;
+}
+
+.profile-page .list-group a.list-group-item.project p {
+    margin: 3px 0 0 0;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0;
+}
+
+
+
+
