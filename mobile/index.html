@@ -1,105 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="apple-touch-icon" sizes="120x120" href="img/touch-icon-iphone-retina.png">
-<title>Lomaki</title>
-<!-- Sets initial viewport load and disables zooming  -->
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">   
-<!-- site css -->
-<link rel="stylesheet" href="css/site.min.css">
-<!-- angulargap css -->
-<link rel="stylesheet" href="angulargap/css/angulargap.css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <title>Lomaki</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/touch-icon-iphone-retina.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" cache="false" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
 
-<link rel="stylesheet" href="css/custom.css">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
 <!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<script src="js/respond.min.js"></script>
+<script src="js/ie/respond.min.js" cache="false"></script>
+<script src="js/ie/html5.js" cache="false"></script>
+<script src="js/ie/fix.js" cache="false"></script>
 <![endif]-->
-<script type="text/javascript" src="js/site.min.js"></script>
-
-<script type="text/javascript">
-    $(function() {
-      $('a').click(function() {
-        document.location = $(this).attr('href');
-        return false;
-      });
-    });
-</script>
 </head>
-<body>
-    
-    <section class="home-header" role="page" type="top">
-        <div class="bar bar--header">
-            <div class="bar__left">
-                <button type="button" class="button button--clear button--icon" data-toggle="offcanvas"><i class="icon" data-icon="&#xe075"></i></button>
-            </div>
-        </div>
+<body class="home-page">
+    <section class="hbox stretch">
+        <!-- .aside -->
+        <aside class="aside-sm" id="nav">
+            <section class="vbox">
+                <header class="dker nav-bar nav-bar-fixed-top">
+                    <button class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </header>
+                <section class="sidenav">
+                    <!-- nav -->
+                    <nav class="nav-primary hidden-xs">
+                        <ul class="nav">
+                            <li class="active">
+                                <a href="index.html">
+                                    <i class="fa fa-bolt"></i>
+                                    <span>Latest Charities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-rss"></i>
+                                    <span>Activity</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-user"></i>
+                                    <span>My Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-cog"></i>
+                                    <span>Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-power-off"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- / nav -->
+                </section>
+            </section>
+        </aside>
+        <!-- /.aside -->
+        <!-- .vbox -->
+        <section id="content">
+            <section class="vbox">
+                <section class="scrollable">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="list-group bg-white center">
+                                <a href="project.html" class="list-group-item project immunity">
+                                    <div class="details">
+                                        <h2>The Immunity Project</h2>
+                                        <p>#hiv #aids #africa</p>
+                                    </div>
+                                    <span style="float:left;width:30px;">
+                                        <img src="images/photos/venkman.jpg" width="30px" class="circle" style="position:relative;top:14px;left:10px;">
+                                        <img src="images/photos/spengler.jpg" width="30px" class="circle" style="position:relative;top:-16px;">
+                                    </span>
+                                    <span style="float:left;position:relative;font-size:.7em;top:23px;left:15px;">+25 more</span>
+                                    <span style="position:relative;top:21px;float:right;">Today</span>
+                                </a>
+                                <a href="#" class="list-group-item project watsi">
+                                    <div class="details">
+                                        <h2>Watsi Foundation</h2>
+                                        <p>#third-world #medical-treatments</p>
+                                    </div>
+                                    <span style="position:relative;top:21px;float:right;">Today</span>
+                                </a>
+                                <a href="#" class="list-group-item project filler">
+                                    <div class="details">
+                                        <h2>Amazing Project</h2>
+                                        <p>#super #awesome</p>
+                                    </div>
+                                    <span style="position:relative;top:21px;float:right;">Today</span>
+                                </a>
+                                <a href="#" class="list-group-item project filler">
+                                    <div class="details">
+                                        <h2>Amazing Project</h2>
+                                        <p>#super #awesome</p>
+                                    </div>
+                                    <span style="position:relative;top:21px;float:right;">Today</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+            </section>
+            <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+        </section>
+        <!-- /.vbox -->
     </section>
-
-    <div class="list">
-        <a class="list__item project immunity" href="immunity.html">
-            <div class="grid center" style="height:100%;">
-                <div class="col col--center">
-                    <h2>The Immunity Project</h2>
-                    <p>#hiv #aids #africa</p>
-                </div>
-            </div>
-            <span style="position:relative;bottom:25px;left:-25px;">
-                <img src="img/photos/venkman.jpg" width="30px" class="circle" style="position:relative;left:25px;">
-                <img src="img/photos/spengler.jpg" width="30px" class="circle">
-                <span style="position:relative;bottom:10px;font-size:.7em;">+25 more</span>
-            </span>
-            <span style="position:relative;bottom:15px;float:right;">Today</span>
-        </a>
-    </div>
-
-    <div class="list">
-        <a class="list__item project watsi" href="#">
-            <div class="grid center" style="height:100%;">
-                <div class="col col--center">
-                    <h2>Watsi Foundation</h2>
-                    <p>#third-world #medical-treatments</p>
-                </div>
-            </div>
-            <span style="position:relative;bottom:15px;float:right;">Yesterday</span>
-        </a>
-    </div>
-
-    <div class="list">
-        <a class="list__item project filler" href="#">
-            <div class="grid center" style="height:100%;">
-                <div class="col col--center">
-                    <h2>Amazing Project</h2>
-                    <p>#super #awesome</p>
-                </div>
-            </div>
-            <span style="position:relative;bottom:15px;float:right;">Last Week</span>
-        </a>
-    </div>
-
-    <div class="list">
-        <a class="list__item project filler" href="#">
-            <div class="grid center" style="height:100%;">
-                <div class="col col--center">
-                    <h2>Amazing Project</h2>
-                    <p>#super #awesome</p>
-                </div>
-            </div>
-        </a>
-    </div>
-
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-      $('[data-toggle=offcanvas]').click(function() {
-        $('.sidebar').toggleClass('active');
-      });
-    });
-</script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          $('a').click(function() {
+            document.location = $(this).attr('href');
+            return false;
+          });
+        });
+    </script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+    <!-- App -->
+    <script src="js/app.js"></script>
+    <script src="js/app.plugin.js"></script>
+    <script src="js/app.data.js"></script>  
 </body>
 </html>

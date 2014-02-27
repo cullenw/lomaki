@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<title>Lomaki</title>
-<!-- Sets initial viewport load and disables zooming  -->
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">   
-<!-- site css -->
-<link rel="stylesheet" href="css/site.min.css">
-<!-- angulargap css -->
-<link rel="stylesheet" href="angulargap/css/angulargap.css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Lomaki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/angularicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" cache="false" />
+    <link rel="stylesheet" href="js/slider/slider.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
 
-<link rel="stylesheet" href="css/custom.css">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
 <!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<script src="js/respond.min.js"></script>
+<script src="js/ie/respond.min.js" cache="false"></script>
+<script src="js/ie/html5.js" cache="false"></script>
+<script src="js/ie/fix.js" cache="false"></script>
 <![endif]-->
-<script type="text/javascript" src="js/site.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
     $(function() {
       $('a').click(function() {
@@ -29,91 +32,90 @@
     });
 </script>
 </head>
-<body class="donate" style="background: url('img/donate-bg.jpg') no-repeat center top;background-size:cover;background-position: center center;">
-
-    <section class="donate-header" role="page" type="top" style="margin-bottom:10px;">
-        <div class="bar bar--header">
-            <div class="bar__left">
-                <a href="immunity.html" class="button button--primary button--clear button--icon"><i class="icon" data-icon="&#xe05e"></i></a>
+<body class="donate-page">
+    <section class="hbox stretch">
+        <!-- .aside -->
+        <aside class="bg-primary aside-sm" id="nav">
+            <section class="vbox">
+                <header class="dker nav-bar nav-bar-fixed-top">
+                    <a href="project.html" class="btn btn-link visible-xs">
+                        <i class="icon" data-icon="&#xe05e"></i>
+                    </a>
+                </header>
+            </section>
+        </aside>
+        <!-- /.aside -->
+        <!-- .vbox -->
+        <section id="content">
+            <section class="vbox">
+                <section class="scrollable">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h5 style="padding-top:20px;">Amount</h5>
+                            <div class="row" style="padding-bottom:10px;">
+                                <div class="btn-grouping" >
+                                    <div class="col-xs-6" style="padding-right:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">$1</a>
+                                    </div>
+                                    <div class="col-xs-6" style="padding-left:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active">$5</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="btn-grouping">
+                                    <div class="col-xs-6" style="padding-right:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">$20</a>
+                                    </div>
+                                    <div class="col-xs-6" style="padding-left:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">CUSTOM</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="m-t">Frequency</h5>
+                            <div class="row">
+                                <div class="btn-grouping">
+                                    <div class="col-xs-6" style="padding-right:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active">ONE TIME</a>
+                                    </div>
+                                    <div class="col-xs-6" style="padding-left:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline">MONTHLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="m-t">Match Up To <span class="pull-right">$100</span></h5>
+                            <div class="slider-container">
+                                <input class="slider slider-horizontal form-control" type="text" value="" data-slider-min="5" data-slider-max="20" data-slider-step="1" data-slider-value="10" data-slider-orientation="horizontal">
+                            </div>
+                            <h5 class="m-t">Share</h5>
+                            <div class="row">
+                                <div class="btn-grouping">
+                                    <div class="col-xs-6" style="padding-right:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active"><i class="fa fa-facebook"></i> Facebook</a>
+                                    </div>
+                                    <div class="col-xs-6" style="padding-left:5px;">
+                                        <a href="#" class="btn btn-default btn-block btn-lg btn-outline active"><i class="fa fa-twitter"></i> Twitter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+            </section>
+        </section>
+        <!-- /.vbox -->
+        <section class="footer-bar">
+            <div class="btn-group">
+                <a href="project.html" class="btn btn-full btn-default">Confirm</a>
             </div>
-        </div>
+        </section>
     </section>
-    
-    <div class="row-label">
-        Amount
-    </div>
-
-    <div class="amount-grid">
-        <div class="grid">
-            <div class="col">
-                <button class="button button--outline button--block">$1</button>
-            </div>
-            <div class="col">
-                <button class="active button button--outline button--block">$5</button>
-            </div>
-        </div>
-        <div class="grid">
-            <div class="col">
-                <button class="button button--outline button--block">$20</button>
-            </div>
-            <div class="col">
-                <button class="button button--outline button--block">CUSTOM</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="row-label">
-        Frequency
-    </div>
-
-    <div class="frequency-grid">
-        <div class="grid">
-            <div class="col">
-                <button class="active button button--outline button--block">ONE TIME</button>
-            </div>
-            <div class="col">
-                <button class="button button--outline button--block">MONTHLY</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="row-label">
-        Match Up To
-        <span style="float:right;font-size:1.2em;color:#fff;">$100</span>
-    </div>
-    <div class="grid">
-        <div class="col">
-            <div class="match-slider">
-                <div class="range range--primary">
-                    <input type="range" name="volume">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row-label">
-        Share
-    </div>
-
-    <div class="share-grid">
-        <div class="grid">
-            <div class="col">
-                <button class="active button button--outline button--icon button--block"><i class="icon" data-icon="&#xe10a"></i> Facebook</button>
-            </div>
-            <div class="col">
-                <button class="active button button--outline button--icon button--block"><i class="icon" data-icon="&#xe120"></i> Twitter</button>
-            </div>
-        </div>
-    </div>
-
-    <section role="page" type="bottom">
-        <div class="bar bar--footer">
-            <div class="button-group">
-              <a href="immunity.html" class="button button--block button--icon">Confirm</a>
-            </div>
-        </div>
-    </section>
-
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.js"></script>
+    <!-- App -->
+    <script src="js/app.js"></script>
+    <script src="js/app.plugin.js"></script>
+    <script src="js/app.data.js"></script> 
+    <script src="js/slider/bootstrap-slider.js"></script> 
 </body>
 </html>

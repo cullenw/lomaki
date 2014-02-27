@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Lomaki</title>
+<!-- Sets initial viewport load and disables zooming  -->
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">   
+<!-- site css -->
+<link rel="stylesheet" href="css/site.min.css">
+<!-- angulargap css -->
+<link rel="stylesheet" href="angulargap/css/angulargap.css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/custom.css">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/site.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+      $('a').click(function() {
+        document.location = $(this).attr('href');
+        return false;
+      });
+    });
+</script>
+</head>
+<body class="donate" style="background: url('img/donate-bg.jpg') no-repeat center top;background-size:cover;background-position: center center;">
+
+    <section class="donate-header" role="page" type="top" style="margin-bottom:10px;">
+        <div class="bar bar--header">
+            <div class="bar__left">
+                <a href="immunity.html" class="button button--primary button--clear button--icon"><i class="icon" data-icon="&#xe05e"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <div class="row-label">
+        Amount
+    </div>
+
+    <div class="amount-grid">
+        <div class="grid">
+            <div class="col">
+                <button class="button button--outline button--block">$1</button>
+            </div>
+            <div class="col">
+                <button class="active button button--outline button--block">$5</button>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="col">
+                <button class="button button--outline button--block">$20</button>
+            </div>
+            <div class="col">
+                <button class="button button--outline button--block">CUSTOM</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row-label">
+        Frequency
+    </div>
+
+    <div class="frequency-grid">
+        <div class="grid">
+            <div class="col">
+                <button class="active button button--outline button--block">ONE TIME</button>
+            </div>
+            <div class="col">
+                <button class="button button--outline button--block">MONTHLY</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row-label">
+        Match Up To
+        <span style="float:right;font-size:1.2em;color:#fff;">$100</span>
+    </div>
+    <div class="grid">
+        <div class="col">
+            <div class="match-slider">
+                <div class="range range--primary">
+                    <input type="range" name="volume">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row-label">
+        Share
+    </div>
+
+    <div class="share-grid">
+        <div class="grid">
+            <div class="col">
+                <button class="active button button--outline button--icon button--block"><i class="icon" data-icon="&#xe10a"></i> Facebook</button>
+            </div>
+            <div class="col">
+                <button class="active button button--outline button--icon button--block"><i class="icon" data-icon="&#xe120"></i> Twitter</button>
+            </div>
+        </div>
+    </div>
+
+    <section role="page" type="bottom">
+        <div class="bar bar--footer">
+            <div class="button-group">
+              <a href="immunity.html" class="button button--block button--icon">Confirm</a>
+            </div>
+        </div>
+    </section>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+</body>
+</html>
