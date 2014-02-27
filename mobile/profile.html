@@ -31,19 +31,54 @@
     });
 </script>
 </head>
-<body class="project-page">
+<body class="profile-page">
     <section class="hbox stretch">
         <!-- .aside -->
         <aside class="bg-primary aside-sm" id="nav">
             <section class="vbox">
                 <header class="dker nav-bar nav-bar-fixed-top">
-                    <a href="index.html" class="btn btn-link visible-xs">
-                        <i class="icon" data-icon="&#xe036"></i>
-                    </a>
-                    <a href="#" class="btn btn-link visible-xs" style="right:0;">
-                        <i class="icon" data-icon="&#xe0ee"></i>
-                    </a>
+                    <button class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav">
+                        <i class="fa fa-bars"></i>
+                    </button>
                 </header>
+                <section class="sidenav">
+                    <!-- nav -->
+                    <nav class="nav-primary hidden-xs">
+                        <ul class="nav">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa fa-bolt"></i>
+                                    <span>Latest Charities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-rss"></i>
+                                    <span>Activity</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="profile.html">
+                                    <i class="fa fa-user"></i>
+                                    <span>My Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-cog"></i>
+                                    <span>Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-power-off"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- / nav -->
+                </section>
             </section>
         </aside>
         <!-- /.aside -->
@@ -53,14 +88,40 @@
                 <section class="scrollable">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="list-group bg-white center">
-                                <a href="#" class="list-group-item project immunity">
-                                    <div class="details">
-                                        <h2>The Immunity Project</h2>
-                                        <h4>#hiv #aids #africa</h4>
+                            <section class="panel profile-top">
+                                <div class="panel-body">
+                                    <div class="clearfix center m-t">
+                                        <div class="inline">
+                                                <div class="thumb-lg">
+                                                    <img src="images/avatar_default.jpg" class="img-circle">
+                                                </div>
+                                                <div class="h4 m-t m-b-xs">John Smith</div>
+                                            </div>                      
+                                        </div>
                                     </div>
-                                </a>
-                            </div>
+                                    <footer class="panel-footer bg-dark lter text-center">
+                                        <div class="row pull-out">
+                                            <div class="col-xs-4">
+                                                <div class="padder-v">
+                                                    <span class="m-b-xs h4 block">245</span>
+                                                    <small class="text-muted">Followers</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 bg-success">
+                                                <div class="padder-v">
+                                                    <span class="m-b-xs h4 block">55</span>
+                                                    <small class="text-muted">Following</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="padder-v">
+                                                    <span class="m-b-xs h4 block">2,035</span>
+                                                    <small class="text-muted">Tweets</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </footer>
+                                </section>
                             <h5>Supporters</h5>
                             <div class="supporters">
                                 <img src="images/photos/venkman.jpg" width="50px">

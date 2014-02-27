@@ -4,6 +4,7 @@ body {
     background-color: #191a1a;
     color: #eaeaea;
     -webkit-font-smoothing: antialiased;
+    font-size: 1.4em;
 }
 
 a {
@@ -29,6 +30,11 @@ h5 {
     width: 100%;
 }
 
+h4 {
+    font-size: 1.1em;
+    color: #cbcbcb;
+}
+
 p {
     padding: 5px 10px;
     margin-bottom: 0;
@@ -38,6 +44,10 @@ ul {
     float: left;
     clear: both;
     margin-bottom: 0;
+}
+
+.last {
+    margin-bottom: 60px;
 }
 
 .list-group {
@@ -101,8 +111,7 @@ img.circle {
     padding-top: 0px;
 }
 
-
-/* Home Screen */
+/* Sidenav */
 
 .hbox > aside {
     -webkit-box-shadow: inset -5px 0px 6px -3px rgba(0, 0, 0, 0.75);
@@ -123,13 +132,16 @@ img.circle {
 }
 
 
-.home-page header button, .home-page header button:hover, .home-page header button:focus {
+.home-page header button, .home-page header button:hover, .home-page header button:focus, .profile-page header button, .profile-page header button:hover, .profile-page header button:focus {
     color: #fff;
 }
 
-.home-page header .btn:focus, .home-page header .btn:active:focus, .home-page header .btn.active:focus {
+.home-page header .btn:focus, .home-page header .btn:active:focus, .home-page header .btn.active:focus, .profile-page header .btn:focus, .profile-page header .btn:active:focus, .profile-page header .btn.active:focus {
     outline: none;
 } 
+
+
+/* Home Screen */
 
 .list-group a.list-group-item.project {
     color: #fff;
@@ -327,3 +339,13 @@ body.donate-page {
     width: 100%;
 }
 
+/* Profile Page */
+
+.profile-page  .profile-top {
+    background:#191A1A;
+    border: none;
+}
+
+.profile-page  .profile-top .panel-footer {
+    border: none;
+}
