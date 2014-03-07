@@ -224,7 +224,14 @@ a:after {
 }
 
 #headerwrap.project {
-    background: url(http://www.immunityproject.org/images/lab.jpg) no-repeat;
+    background: url(../img/projects/immunity.jpg) no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    position: relative;
+}
+
+#headerwrap.watsi {
+    background: url(../img/projects/watsi.jpg) no-repeat;
     background-size: cover;
     min-height: 550px;
     position: relative;
