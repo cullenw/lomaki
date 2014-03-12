@@ -98,8 +98,7 @@ a:after {
 }
 
 .navbar-default {
-	background-color: #77448B;
-	border-bottom: 3px solid #9B59B6;
+	background-color: #61177c;
 }
 
 .navbar-default .navbar-brand {
@@ -175,7 +174,7 @@ a:after {
 
 /* HeaderWrap */
 #headerwrap {
-    border-top: 6px solid #9B59B6;
+    border-top: 6px solid #61177c;
 	background: url(../img/bg3.jpg) no-repeat center top;
 	background-color: #333;
 	background-attachment: relative;
